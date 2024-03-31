@@ -1,0 +1,363 @@
+/*smaller than 768px*/
+@media screen and (max-width:768px){
+    .section-title h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .nav-menu {
+        display: inline-block;
+    }
+    
+    nav {
+        position: relative;
+    }
+    
+    nav .menu-toggle {
+        display: block;
+        font-size: 20px;
+        color: #ff305b;
+        cursor: pointer;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    nav ul {
+        display: none;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+    
+    nav input[type="checkbox"]:checked ~ ul {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .landing .landing-text{
+        text-align: left;
+    }
+    .landing .landing-text p{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .landing .landing-text h1{
+        font-size: 25px;
+    }
+    .landing .landing-text .wrapper{
+        width: 250px;
+        
+    }
+    .landing .landing-text .wrapper .static-txt{
+        font-size: 15px;
+    }
+    .landing .landing-text .wrapper .dynamic-txt{
+        font-size: 15px;
+    }
+    .landing .landing-text .wrapper .dynamic-txt li{
+        font-size: 16px;
+    }
+    .landing .landing-text .wrapper .dynamic-txt .first{
+        left: 0;
+
+        
+    }
+    .landing img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about{
+        padding: 40px 0 40px 0;
+        height: 1050px;
+        }
+    .about .about-box{
+        width: 100%;
+    }
+    .about .about-media{
+        width: 100%;
+        height: 500px;
+        border: none;
+    }
+    .about .about-img{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .about .about-img img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .about .about-layer i{
+        font-size: 16px;
+        margin-right: 10px;
+
+        }
+    .about .about-text{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .about .about-text h2{
+        font-size: 20px;
+    }
+    .about .about-text .bordered{
+        font-size:11px;
+    }
+    .info-box-left, .info-box-right{
+        width: 100%;
+    }
+    .about .info-box p{
+        font-size: 11px;
+    }
+    .about button{
+        display: inline-block;
+        font-size: 9px;
+        padding: 8px 10px;
+    }
+    .services{
+        padding: 40px 0 40px 0;
+        height: 800px;
+    }
+    .services .service-card{
+        width: 100%;
+    }
+    .services .service-card i{
+        font-size: 20px;
+    }
+    .services .service-card h3{
+        font-size: 15px;
+    }
+    .services .service-card p{
+        font-size: 11px;
+    }
+    .portfolio{
+        padding: 40px 0 40px 0;
+    }
+    .portfolio .portfolio-categories {
+        margin-bottom: 20px;   
+    }
+    .portfolio .portfolio-categories ul li{
+        padding: 5px 5px;
+        font-size: 11px;
+    }
+    .portfolio .portfolio-card{
+        width: 100%;
+    }
+    .stats{
+        padding: 40px 0 40px 0;
+        height: auto;
+    }
+    .stats .stat-card{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .stats .stat-card i{
+        font-size: 20px;
+    }
+    .stats .stat-card h3{
+        font-size: 15px;
+    }
+    .stats .stat-card p{
+        font-size: 11px;
+    }
+    .feedback{
+        padding: 40px 0 40px 0;
+        height: 500px;
+    }
+    .feedback .feedback-card{
+        width: 100%;
+        height: 350px;
+        padding: 10px;
+    }
+    .feedback .feedback-card::after{
+        border-top: 60px solid #ff305b;
+        border-right: 60px solid transparent;
+        border-left: 60px solid #ff305b;
+        border-bottom: 60px solid transparent;
+    }
+    .feedback .feedback-card .feedback-img{
+        width: 100%;
+        height: 50px;
+    }
+    .feedback .feedback-card .feedback-img img{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .feedback .feedback-card .feedback-text{
+        width: 100%;
+        margin-top: 65px;
+    }
+    .feedback .feedback-card .feedback-text h4{
+        font-size: 15px;
+    }
+    .feedback .feedback-card .feedback-text p{
+        font-size: 9px;
+    }
+    .blog{
+        padding: 40px 0 40px 0;
+        height: 1550px;
+    }
+    .blog .blog-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact{
+        padding: 40px 0 40px 0;
+    }
+    .contact .contact-card {
+        width: 100%;
+    }
+    .contact .contact-card .name,
+.contact .contact-card .email{
+    width: 100%;
+    margin: 10px 0;
+}
+.contact .contact-card form button{
+    padding: 12px 20px;
+    font-size: 15px;
+}   
+}
+/*meduim than 768px*/
+@media screen and (min-width:769px) and (max-width: 992px){
+    nav .menu-toggle {
+        display: block;
+        font-size: 20px;
+        color: #ff305b;
+        cursor: pointer;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    nav ul {
+        display: none;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+    
+    nav input[type="checkbox"]:checked ~ ul {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .about{
+        height: 450px;
+    }
+    .about .about-media{
+        border: 0;
+        width: 300px;
+        height: 450px;
+    }
+    .about .about-img{
+        width: 90%;
+        height: 100%;
+        top:0;
+        left: 0;
+    }
+    .about .about-img img{
+        width: 100%;
+        height: 450px;
+    }
+    .about .about-text{
+        width: 50%;
+        height: 600px;
+        overflow: hidden;
+    }
+    .about .about-text h2{
+        font-size: 25px;
+    }
+    .about .about-text .bordered{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .about .info-box p{
+        font-size: 12px;
+
+        
+    }
+    .about button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .services{
+        padding: 40px 0 40px 0;
+        height: 600px;
+    }
+    .services .service-card{
+        width: 50%;
+    }
+    .portfolio{
+        padding: 40px 0 40px 0;
+        height: 600px;
+    }
+    .portfolio .portfolio-card{
+        width: 50%;
+    }
+    .stats{
+        padding: 40px 0 40px 0;
+        height: 250px;
+    }
+    .stats .stat-card i{
+        font-size: 30px;
+    }
+    .stats .stat-card h3{
+        font-size: 25px;
+    }
+    .stats .stat-card p{
+        font-size: 11px;
+    }
+    .feedback{
+        padding: 40px 0 40px 0;
+        height: 500px;
+    }
+    .feedback .feedback-card{
+        width: 100%;
+    }
+    .blog{
+        padding: 40px 0 40px 0;
+        height: 700px;
+    }
+    .blog .blog-card{
+        height: 80%;
+    }
+    .blog .blog-card .blog-img{
+        width: 100%;
+    }
+    .blog .blog-card .blog-text{
+        width: 100%;
+    }
+    .blog .blog-card .blog-text span{
+        font-size: 15px;
+    }
+    .blog .blog-card .blog-text h4{
+        font-size: 13px;
+        font-weight: bold ;
+    }
+    .blog .blog-card .blog-text p{
+        font-size: 12px;
+
+    }
+    .contact{
+        padding: 40px 0 40px 0;
+    }
+    .contact .contact-card {
+        width: 100%;
+    }
+    }
+
+    
+
